@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="451540d8-2817-4487-b5f1-17eff2f312bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Oblig3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Oblig3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/isLeapYear.py" beforeDir="false" afterPath="$PROJECT_DIR$/isLeapYear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_isLeapYear.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_isLeapYear.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
