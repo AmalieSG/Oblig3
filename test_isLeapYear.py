@@ -1,5 +1,5 @@
 import pytest
-from src.isLeapYear import isLeapYear
+from isLeapYear import isLeapYear
 
 def test_years_divisible_by_four_but_not_onehundred_are_leap_years():
     assert isLeapYear(2032)
