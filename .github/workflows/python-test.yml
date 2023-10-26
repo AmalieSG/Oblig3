@@ -24,18 +24,18 @@ jobs:
       run: |
         pytest
 
-    - name: Send Ok notification 
-      if: success() && github.ref == 'refs/heads/main'
-      uses: appleboy/telegram-action@master
-      with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: "All tests passes"
+    #- name: Send Ok notification 
+     # if: success() && github.ref == 'refs/heads/main'
+      #uses: appleboy/telegram-action@master
+      #with:
+       # to: ${{ secrets.TELEGRAM_TO }}
+       # token: ${{ secrets.TELEGRAM_TOKEN }}
+       # args: "All tests passes"
 
-    - name: Send failure notification 
-      if: failure() && github.ref == 'refs/heads/main'
-      uses: appleboy/telegram-action@master
-      with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
-        args: "Tests failed"
+    #- name: Send failure notification 
+    #  if: failure() && github.ref == 'refs/heads/main'
+    #  uses: appleboy/telegram-action@master
+    #  with:
+    #    to: ${{ secrets.TELEGRAM_TO }}
+    #    token: ${{ secrets.TELEGRAM_TOKEN }}
+    #    args: "Tests failed"
